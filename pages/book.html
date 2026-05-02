@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Book an appointment at Spoke & Weal. Choose your location, service, stylist, and time — all in one flow.">
+<title>Book — Spoke &amp; Weal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="../assets/js/main.js"></script>
+</head>
+<body>
+
+<header class="nav scrolled">
+  <a href="../index.html" class="brand-logo" aria-label="Spoke & Weal — Home">
+    <img src="../assets/images/logo.png" alt="Spoke &amp; Weal">
+  </a>
+  <nav class="nav-links">
+    <a href="services.html">Services</a>
+    <a href="stylists.html">Stylists</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="../index.html#locations">Locations</a>
+    <a href="about.html">About</a>
+  </nav>
+  <div class="nav-right">
+    <button class="theme-toggle" aria-label="Toggle light or dark mode" type="button">
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M4.93 4.93l2.12 2.12M16.95 16.95l2.12 2.12M2 12h3M19 12h3M4.93 19.07l2.12-2.12M16.95 7.05l2.12-2.12"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+    <a href="book.html" class="btn nav-cta"><span>Schedule</span> <span class="arrow">→</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" type="button">
+      <span class="bars"><span></span><span></span></span>
+    </button>
+  </div>
+</header>
+
+<section class="subhero">
+  <div class="grid">
+    <div data-reveal>
+      <p class="crumbs"><a href="../index.html">Home</a> · Book an Appointment</p>
+      <h1>Book your <em>appointment.</em></h1>
+    </div>
+    <p class="lede" data-reveal>Choose your location, service, and stylist. Confirm in under two minutes.</p>
+  </div>
+</section>
+
+<section class="content">
+  <div class="wrap">
+    <div class="booking-shell">
+
+      <!-- Steps sidebar -->
+      <div class="steps">
+        <div class="step done">
+          <span class="step-num">01</span>
+          <div>
+            <div class="step-label">Location</div>
+            <div class="step-value">Soho · New York</div>
+          </div>
+        </div>
+        <div class="step active">
+          <span class="step-num">02</span>
+          <div>
+            <div class="step-label">Service</div>
+            <div class="step-value">Choose a service</div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <div>
+            <div class="step-label">Stylist</div>
+            <div class="step-value">All available</div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">04</span>
+          <div>
+            <div class="step-label">Date &amp; Time</div>
+            <div class="step-value">Next 14 days</div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">05</span>
+          <div>
+            <div class="step-label">Confirm</div>
+            <div class="step-value">Review &amp; book</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2 — Service selection -->
+      <div>
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Step 2 of 5</p>
+          <h2>What service today?</h2>
+        </div>
+
+        <div class="booking-options" data-reveal>
+          <button class="opt selected">
+            <span class="opt-name">Designer Cut</span>
+            <span class="opt-meta">90 min · From $185</span>
+          </button>
+          <button class="opt">
+            <span class="opt-name">Single-Process Color</span>
+            <span class="opt-meta">120 min · From $145</span>
+          </button>
+          <button class="opt">
+            <span class="opt-name">Balayage</span>
+            <span class="opt-meta">180 min · From $325</span>
+          </button>
+          <button class="opt">
+            <span class="opt-name">Highlights · Foil</span>
+            <span class="opt-meta">150 min · From $245</span>
+          </button>
+          <button class="opt">
+            <span class="opt-name">Master Cut</span>
+            <span class="opt-meta">90 min · From $325</span>
+          </button>
+          <button class="opt">
+            <span class="opt-name">Olaplex Bond Repair</span>
+            <span class="opt-meta">45 min · From $85</span>
+          </button>
+          <button class="opt">
+            <span class="opt-name">Blow-Out</span>
+            <span class="opt-meta">45 min · From $75</span>
+          </button>
+          <button class="opt">
+            <span class="opt-name">Color Correction</span>
+            <span class="opt-meta">By Quote · Multi-session</span>
+          </button>
+        </div>
+
+        <div class="booking-actions">
+          <a href="#" class="btn btn-solid"><span>Continue</span> <span class="arrow">→</span></a>
+          <a href="#" class="btn"><span>Back</span></a>
+        </div>
+
+        <p style="margin-top: 32px; font-size: 13px; color: var(--muted); max-width: 50ch; line-height: 1.55;">All appointments include an in-person consultation. If you are unsure of the service, we will help you choose at the start of your visit.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="top">
+      <div class="brand-block">
+        <a href="../index.html" class="footer-logo" aria-label="Spoke & Weal — Home">
+          <img src="../assets/images/logo.png" alt="Spoke &amp; Weal">
+        </a>
+        <p>A full-service hair salon. Founded 2014. Operating across nine cities — Los Angeles, New York, San Francisco, Palo Alto, Chicago, Boston, Nashville, Austin, and Minneapolis.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/spokeandweal/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zm0-2.16C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63a5.86 5.86 0 0 0-2.12 1.38A5.86 5.86 0 0 0 .63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.8.73 1.48 1.38 2.12.64.65 1.32 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.86 5.86 0 0 0 2.12-1.38c.65-.64 1.07-1.32 1.38-2.12.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.86 5.86 0 0 0-1.38-2.12A5.86 5.86 0 0 0 19.86.63C19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zm0 10.16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm7.85-10.4a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/spokeandweal" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.43H7.08v-3.5h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.89v2.26h3.32l-.53 3.5h-2.79V24C19.61 23.09 24 18.1 24 12.07z"/></svg>
+          </a>
+          <a href="https://twitter.com/spokeandweal" target="_blank" rel="noopener" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="../locations/soho.html">Soho</a></li>
+          <li><a href="../locations/flatiron.html">Flatiron</a></li>
+          <li><a href="../locations/san-francisco.html">San Francisco</a></li>
+          <li><a href="../index.html#locations">All Locations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Haircut</a></li>
+          <li><a href="services.html">Custom Color</a></li>
+          <li><a href="services.html">Extensions</a></li>
+          <li><a href="services.html">Coily Services</a></li>
+          <li><a href="services.html">Treatments</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="book.html">Schedule</a></li>
+          <li><a href="https://www.instagram.com/spokeandweal/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <div>© 2026 Spoke &amp; Weal. All rights reserved.</div>
+      <div class="links"><a href="#">Privacy</a><a href="#">Accessibility</a><a href="#">Terms</a></div>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-drawer" data-open="false">
+  <ul>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="stylists.html">Stylists</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="../index.html#locations">Locations</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="book.html" class="btn btn-solid drawer-cta"><span>Schedule</span> <span class="arrow">→</span></a>
+  <div class="drawer-socials"><a href="https://www.instagram.com/spokeandweal/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zm0-2.16C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63a5.86 5.86 0 0 0-2.12 1.38A5.86 5.86 0 0 0 .63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.8.73 1.48 1.38 2.12.64.65 1.32 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.86 5.86 0 0 0 2.12-1.38c.65-.64 1.07-1.32 1.38-2.12.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.86 5.86 0 0 0-1.38-2.12A5.86 5.86 0 0 0 19.86.63C19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zm0 10.16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm7.85-10.4a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></svg></a><a href="https://www.facebook.com/spokeandweal" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.43H7.08v-3.5h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.89v2.26h3.32l-.53 3.5h-2.79V24C19.61 23.09 24 18.1 24 12.07z"/></svg></a><a href="https://twitter.com/spokeandweal" target="_blank" rel="noopener" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a></div>
+</div>
+</body>
+</html>
