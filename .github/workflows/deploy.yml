@@ -24,6 +24,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Vercel's Hobby plan blocks deployments whose commit author email is not
+      # a GitHub account it recognises. Our commits are authored by the company
+      # identity, so we deploy the tree without git metadata.
+      - name: Drop git metadata
+        run: rm -rf .git
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
